@@ -63,17 +63,28 @@ npm -v
 
     ```
     node -v
-    ```
-* luego 
+    
+    ``` 
+y luego 
 
-    ```
-    npm -v
-    ```
+    `` npm -v ``
 
 Si la instalación se realizó correctamente, estos comandos deberían mostrar las versiones instaladas de Node.js y npm.
 
 Estos comandos deberían mostrar las versiones instaladas de Node.js y npm.
 
+## Instalacion de dependencias de React
+
+ en una terminal copiar el siguiente comando:
+
+`` npm install @babel/core @babel/preset-env @babel/preset-react babel-loader react react-dom react-router-dom webpack webpack-cli ``
+
 ¡Ahora estás listo para empezar a trabajar con Django y React!
+
+Para iniciar React en nuestra aplicacion de Django Ingresar este comando en una nueva consola, desde la carpeta `` frontend  `` de nuestro proyecto y ejecutar el siguiente comando: 
+
+`` npm run dev ``
+
+si todo funciono deberia aparecer un texto similar 
 
 ## Ahora Trae Tu mejor Cafe, Por que lo vas a necesitar.
