@@ -1,36 +1,35 @@
-# Guia de django-react
-😊 Django y React realizando una integracion simple 
+# Guía de Integración Django y React
 
-# Requisitos!:
+Esta guía te llevará a través de los pasos para realizar una integración simple entre Django y React.
 
- * Saber Programar
+## Requisitos
 
- # Muchas Gracias
+- Conocimientos básicos de programación
+- Python
+- React
+- pip
 
-* Python
+## Configuración del Entorno Virtual
 
-* React
+1. Crea un nuevo entorno virtual ejecutando el siguiente comando en tu terminal:
 
-* pip
+    ```
+    python -m venv env
+    ```
 
-* entorno virtual creado desde 0, para poder instalar las dependencias correspondientes con el siguiente comando:
+2. Activa el entorno virtual. En Windows, ejecuta:
 
-- python -m venv env 
+    ```
+    .\env\Scripts\activate
+    ```
 
-- una vez creado el entorno virtual realizar la activacion de este mismo
+    En macOS y Linux, ejecuta:
 
-- cd .\env\Scripts\
+    ```
+    source env/bin/activate
+    ```
 
-- activate
+## Instalación de Dependencias
 
-* Una vez activado el entorno virtual 
-
-* luego se ejecuta el siguiente comando para poder instalar las dependencias correspondientes.
-
-*-* pip install -r requirements.txt
-
-
-
-
-
+Una vez activado el entorno virtual, instala las dependencias necesarias ejecutando el siguiente comando:
 
